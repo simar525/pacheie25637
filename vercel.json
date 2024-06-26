@@ -1,8 +1,11 @@
 {
+  "redirects": [{"source": "/slice",       "destination": "/flobber",       "permanent": true     }
+],
   "rewrites": [
     {
       "source": "/(.*)",
       "destination": "https://stbrutus.org/$1"
- }
+    }
   ]
 }
+    
